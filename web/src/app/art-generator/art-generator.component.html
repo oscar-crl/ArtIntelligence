@@ -1,0 +1,7 @@
+<form [formGroup]="artForm" class="form" (ngSubmit)="handleSubmit()">
+  <mat-form-field appearance="outline">
+    <mat-label>Keyword</mat-label>
+    <input matInput formControlName="keyword">
+  </mat-form-field>
+  <button mat-stroked-button color="primary" type="submit">Generate</button>
+</form>
