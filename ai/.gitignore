@@ -3,6 +3,15 @@
 # Compiled output
 /venv
 
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
 # Miscellaneous
 /download
 /save
